@@ -1,0 +1,29 @@
+
+.pageMain {
+  height: 100%;
+  width: 100%;
+
+  .headerLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 46px;
+    background-color: #001529;
+    color: #fff;
+
+    .systemName {
+      width: 200px;
+      //text-align: center;
+      //line-height: 46px;
+      //cursor: pointer;
+    }
+
+    .systemMenu {
+      width: calc(100% - 400px);
+    }
+
+    .systemBtn {
+      width: 200px;
+    }
+  }
+}
